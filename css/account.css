@@ -1,0 +1,946 @@
+/*============我的账户首页===============*/
+
+.accMain .accountCon {
+	width: 952px;
+	float: left;
+	margin-left: 88px;
+}
+
+.accountCon .atipBox {
+	height: 25px;
+}
+
+.accountCon .atipBox .accTips {
+	background-color: #fff9e2;
+	color: #666;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	font-family: arial;
+	padding-left: 10px;
+	position: relative;
+}
+
+.atipBox .accTips a {
+	color: #666;
+}
+
+.atipBox .accTips i {
+	width: 25px;
+	height: 25px;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../images/icons/icon_tipClose.png) no-repeat center center;
+	cursor: pointer;
+}
+
+.accountCon .accProfit {
+	margin-top: 25px;
+	font-size: 14px;
+	color: #333;
+	padding-left: 32px;
+	height: 71px;
+}
+
+.accountCon .accProfit h4 {
+	font-size: 30px;
+	margin-top: 12px;
+}
+
+.accProfit .yesProfit {
+	float: left;
+	width: 350px;
+	position: relative;
+}
+
+.yesProfit i.what {
+	right: 268px;
+	top: 2px;
+}
+
+.accProfit .sumProfit {
+	float: left;
+	width: 330px;
+	position: relative;
+}
+
+.sumProfit i.what {
+	right: 248px;
+	top: 2px;
+}
+
+.accProfit .yqPic {
+	float: left;
+	padding-top: 5px;
+}
+.accountCon .ringBox{
+	border-top: 1px solid #e9e9e9; 
+	margin-top: 20px; 
+	padding-top: 30px;
+	overflow: hidden;
+}
+.ringBox .ringLeft{
+	float: left;
+	width: 340px;
+}
+.ringBox .ringCon{
+	float: left;
+	color: #333;
+	overflow: hidden;
+}
+.ringCon ul{
+	float: left;
+	width: 265px;
+}
+.ringCon ul li{
+	padding-left: 30px;
+	position: relative;
+	margin-top: 50px;
+	*width: 235px;
+}
+.ringCon ul.assetList{
+	margin-left: 80px;
+}
+.ringCon li i{
+	width: 16px;
+	height: 16px;
+	display: block;
+	position: absolute;
+	background: url(../images/icons/icon_asset.png) no-repeat;
+	left: 0;
+	top: 5px;
+}
+.ringCon li.asset_0 i{
+	background-position: 0 0;
+}
+.ringCon li.asset_1 i{
+	background-position: 0 -16px;
+}
+.ringCon li.asset_2 i{
+	background-position: 0 -32px;
+}
+.ringCon li.asset_3 i{
+	background-position: 0 -48px;
+}
+.ringCon ul li h6{
+	height: 25px;
+	line-height: 25px;
+ 	font-size: 16px;
+ }
+.ringCon ul li p{
+	font-size: 16px;
+	margin-top: 8px;
+	line-height: 25px;
+}
+.ringCon li p a{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #414141;
+}
+.ringCon li p a.czBtn{
+	color: #fc6401;
+	padding: 0 12px;
+	border: 1px solid #fc6401;
+	border-radius: 3px;
+	margin: 0 15px 0 30px;
+}
+.ringCon li p a.czBtn:hover{
+	border-color: #fc6401;
+	background-color: #fc6401;
+	color: #fff;
+}
+.ringCon li p a.txBtn:hover{
+	color: #fc6401;
+}
+.accountCon .accPro{
+	border: 1px solid #e9e9e9;
+	overflow: hidden;
+	color: #999;
+	font-size: 14px;
+}
+.accPro .aproTitle {
+	float: left;
+	width: 114px;
+	text-align: center;
+	border-right: 1px solid #e9e9e9;
+	line-height: 86px;
+}
+
+.accPro .proList {
+	width: 792px;
+	float: left;
+	overflow: hidden;
+	padding-top: 4px;
+	padding-left: 42px;
+}
+
+.accPro .proList li {
+	margin-top: 13px;
+	width: 264px;
+	float: left;
+}
+
+.accountCon .accPayment {
+	margin-top: 45px;
+}
+
+.accPayment .payTitle {
+	font-size: 14px;
+	color: #000;
+	overflow: hidden;
+	border-bottom: 1px solid #e9e9e9;
+	padding-bottom: 10px;
+}
+
+.accPayment .payTitle h6 {
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.payTitle a.payMore {
+	display: block;
+	float: right;
+	color: #000;
+}
+
+.payTitle a.payMore:hover {
+	color: #fc8130;
+}
+
+.accPayment .payCon {
+	padding-top: 12px;
+}
+
+.payCon table th {
+	text-align: left;
+	font-size: 14px;
+	color: #000;
+	font-weight: normal;
+	padding-bottom: 6px;
+}
+
+.payCon table td {
+	height: 48px;
+	font-size: 14px;
+	color: #666;
+}
+
+.payCon table td a {
+	color: #666;
+	padding-right: 10px;
+	display: block;
+}
+
+.payCon table td a:hover {
+	color: #fc8130;
+}
+
+.payCon table td a span {
+	color: #fc8130;
+}
+
+.payCon .noPayment {
+	width: 780px;
+	font-size: 14px;
+	color: #999;
+	background-color: #f4f4f7;
+	line-height: 70px;
+	text-align: center;
+	margin: 20px auto 0 auto;
+}
+
+.accProfit .whatCon {
+	padding: 10px 20px 20px 20px;
+}
+
+.accProfit .whatLayer {
+	position: absolute;
+	left: 47px;
+	top: 22px;
+	z-index: 10;
+}
+
+.whatLayer .whatCon li {
+	border-bottom: 1px solid #e9e9e9;
+	line-height: 40px;
+	width: 220px;
+}
+
+.whatLayer .whatCon li.last {
+	border-bottom: 0;
+}
+
+.whatCon li span {
+	float: right;
+	color: #333;
+}
+
+
+/*========end=======*/
+
+
+/*============我的投资===============*/
+
+.accMain .investCon {
+	float: left;
+	margin-left: 70px;
+}
+
+.investCon h3 {
+	color: #333;
+	font-size: 24px;
+}
+
+.investCon .investType {
+	margin-top: 60px;
+	font-size: 16px;
+	overflow: hidden;
+	border-bottom: 1px solid #eaeaea;
+	*width: 100%;
+	width: 967px;
+}
+
+.investType a {
+	color: #333;
+	font-weight: bold;
+}
+
+.investType li {
+	float: left;
+	padding: 0 32px 15px 32px;
+}
+
+.investType li.active {
+	border-bottom: 3px solid #fc8130;
+}
+
+.investCon .investBox {
+	margin-top: 30px;
+}
+
+.investBox .investSta {
+	overflow: hidden;
+	font-size: 14px;
+}
+
+.investBox .investSta a {
+	display: block;
+	float: left;
+	margin-right: 8px;
+	height: 27px;
+	line-height: 27px;
+	color: #999;
+	border: 1px solid #f4f4f7;
+	padding: 0 22px;
+	background-color: #f4f4f7;
+}
+
+.investBox .investSta a:hover {
+	color: #fc8130;
+}
+
+.investBox .investSta a.active {
+	border-color: #fc8130;
+	background-color: #fff;
+	color: #fc8130;
+}
+
+.investBox .investTab {
+	margin-top: 20px;
+	
+}
+
+.investBox .investTab table th {
+	color: #333;
+	text-align: left;
+}
+
+.investBox .investTab table {
+	text-align: left;
+}
+
+.investBox .investTab table tr {
+	height: 57px;
+}
+
+.investBox .investTab table tr:hover {
+	background: #fefaf7;
+}
+
+.investBox .investTab table tr.noHover {
+	background: none;
+}
+
+.investBox .investTab table td,
+.investBox .investTab table td a {
+	color: #666;
+}
+
+.investBox .investTab table .spanCol,
+.investBox .investTab table td a:hover {
+	color: #fc8130;
+}
+
+.investBox .investTab table .tdLast {
+	text-align: center;
+}
+
+.investBox .investTab table .tdLast a {
+	color: #6071b0;
+}
+
+.investBox .investTab .tdLast a:hover {
+	border: 1px solid #6071b0;
+	width: 84px;
+	height: 31px;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	line-height: 31px;
+	color: #6071b0;
+}
+
+
+/*我的投资-活元佳  没有投资活元佳*/
+
+.investBox .noInvestBox {
+	margin: 0 110px 0 80px;
+}
+
+.noInvestBox h4 {
+	text-align: center;
+	color: #333;
+	font-weight: normal;
+	font-size: 22px;
+	margin-top: 50px;
+}
+
+.investBox .noInvest {
+	width: 778px;
+	height: 71px;
+	line-height: 71px;
+	text-align: center;
+	background: #f4f4f7;
+	color: #999;
+}
+
+.noInvestBox ul {
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.noInvestBox ul li {
+	float: left;
+	/* margin: 60px;*/
+	margin: 60px 0;
+	text-align: center;
+	line-height: 30px;
+	position: relative;
+	padding-left: 52px;
+	padding-right: 86px;
+}
+
+.noInvestBox .mfont {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.noInvestBox.conBox i {
+	font-size: 20px;
+}
+
+.noInvestBox span {
+	color: #999;
+	font-size: 16px;
+}
+
+.noInvestBox em {
+	width: 1px;
+	height: 51px;
+	background: url(../images/long_line.png) no-repeat;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.noInvestBox .sfont {
+	font-weight: normal;
+	color: #FC6401;
+}
+
+.noInvestBox strong,
+.noInvestBox i,
+.mfont {
+	color: #FC6401;
+	font-size: 20px;
+	font-style: normal;
+}
+
+.noInvestBox .noMrg {
+	padding-right: 0;
+}
+
+.noInvestBox .timeApp {
+	margin: 0 auto;
+}
+
+.noInvestBox .timeBox {
+	width: 298px;
+	height: 75px;
+	*padding-top: 75px;
+	margin: 0 auto;
+}
+
+.noInvestBox .timeltf,
+.timergt {
+	line-height: 30px;
+}
+
+.noInvestBox .timeBox span,
+.timeltf #time,
+.timeltf .time {
+	float: left;
+	color: #5e5e5e;
+	font-size: 16px;
+}
+
+.noInvestBox .timeltf #time,
+.timeltf .time {
+	margin-left: 11px;
+	font-size: 26px;
+	color: #333;
+}
+
+.noInvestBox .timergt {
+	float: right;
+}
+
+.noInvestBox .timergt .ffont {
+	color: #333;
+	font-size: 26px;
+	padding-left: 5px;
+}
+
+.noInvestBox .appBox {
+	height: 152px;
+	margin: 0 0 0 234px;
+	padding-bottom: 44px;
+}
+
+.noInvestBox .appBox .btn {
+	float: left;
+}
+
+.noInvestBox .appBox .btn a {
+	display: inline-block;
+	width: 217px;
+	height: 46px;
+	border: 1px solid #fc8130;
+	color: #fc8130;
+	border-radius: 5px;
+	line-height: 46px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.noInvestBox .appBox .erweima {
+	float: left;
+	position: relative;
+	margin-top: 16px;
+	margin-left: 40px;
+}
+
+.noInvestBox .mimg {
+	position: absolute;
+	left: 146px;
+	top: -9px;
+}
+
+.noInvestBox .mimg:hover {
+	cursor: pointer;
+}
+
+.noInvestBox .mimgHover {
+	position: absolute;
+	top: -7px;
+	left: -12px;
+}
+
+.noInvestBox .erweima span {
+	color: #666666;
+}
+
+
+/*我的投资-活元佳  已投资活元佳*/
+
+.haveTop {
+	margin-bottom: 75px;
+}
+
+.haveTop ul {
+	overflow: auto;
+}
+
+.haveTop ul li {
+	float: left;
+	padding-right: 258px;
+	color: #333;
+	line-height: 32px;
+}
+
+.haveTop ul li.noPadding {
+	padding: 0;
+}
+
+.haveTop ul li span {
+	font-size: 24px;
+}
+
+.haveTop ul li span.colFont {
+	color: #fc8130;
+}
+
+.haveBot .ulBox {
+	border-bottom: 1px solid #E9E9E9;
+	height: 40px;
+	position: relative;
+	*height: 40px;
+	width: 967px;
+}
+
+.haveInvestBox .ulBox .ulType {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.haveInvestBox .ulBox .ulType li {
+	float: left;
+	width: 133px;
+	height: 39px;
+	*height: 39px;
+	line-height: 39px;
+	text-align: center;
+	border-left: 1px solid #E9E9E9;
+	border-top: 1px solid #E9E9E9;
+	color: #999;
+	cursor: pointer;
+}
+
+.haveInvestBox .ulBox .ulType li.active {
+	color: #333;
+	height: 40px;
+	background: #fff;
+	*height: 40px;
+	*outline: none;
+}
+
+.haveInvestBox .ulType li.boderRgt {
+	border-right: 1px solid #E9E9E9;
+}
+
+.haveInvestBox .haveBot table {
+	padding-top: 28px;
+	color: #333;
+	text-align: left;
+	width: 967px;
+}
+
+.haveInvestBox .haveBot table th {
+	text-align: left;
+}
+
+.haveInvestBox .haveBot table td {
+	padding: 18px 0;
+	color: #666;
+}
+
+.haveInvestBox .haveBot table td a {
+	color: #6071b0;
+}
+
+
+/*============我的投资-无忧详情===============*/
+
+.detMain {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.detMain .detTit {
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	color: #999;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.detMain .detCon {
+	margin-top: 50px;
+}
+
+.detMain .detCon h3 {
+	font-size: 24px;
+	color: #333;
+	text-align: center;
+}
+
+.detCon .dloadBox {
+	text-align: right;
+	margin: 10px 0 15px 0;
+}
+
+.detCon .dloadBox a {
+	font-size: 14px;
+	color: #333;
+}
+
+.detCon .dloadBox a:hover {
+	text-decoration: underline;
+}
+
+.detTable table {
+	border-collapse: collapse;
+}
+
+.detTable table td {
+	color: #666;
+	border: 1px solid #e9e9e9;
+	padding-left: 22px;
+	height: 42px;
+}
+
+.detTable td a {
+	color: #333;
+}
+
+.detTable td a:hover {
+	text-decoration: underline;
+}
+
+.detCon .detMoney {
+	background-color: #fefaf7;
+	margin-top: 45px;
+	padding: 35px 0 35px 62px;
+}
+
+.detMoney ul {
+	overflow: hidden;
+}
+
+.detMoney li {
+	border-right: 1px solid #e9e9e9;
+	float: left;
+	width: 196px;
+	padding-left: 116px;
+}
+
+.detMoney li.first {
+	padding-left: 0;
+}
+
+.detMoney li.last {
+	border-right: 0;
+}
+
+.detMoney li p {
+	font-size: 14px;
+	color: #333;
+}
+
+.detMoney li h4 {
+	font-size: 24px;
+	color: #ff8d07;
+	margin-top: 10px;
+}
+
+.detInfo .investType {
+	margin-top: 60px;
+	font-size: 16px;
+	overflow: hidden;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.dinfoTab table th {
+	color: #000;
+	font-weight: normal;
+	height: 54px;
+}
+
+.dinfoTab table td {
+	color: #666;
+	height: 48px;
+}
+
+.dinfoTab table a {
+	color: #666;
+}
+
+.dinfoTab table a:hover {
+	color: #ff8d07;
+}
+
+.dinfoTab a.checkBtn {
+	color: #6071b0;
+	line-height: 31px;
+}
+
+.dinfoTab a.checkBtn:hover {
+	border: 1px solid #6071b0;
+	border-radius: 5px;
+	color: #6071b0;
+	display: inline-block;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	width: 84px;
+}
+
+
+/*交易明细*/
+
+.marTop {
+	margin-top: 56px;
+}
+
+.investBox .transTba table tr:hover {
+	background: none;
+}
+
+.investBox .transTba {
+	padding-top: 20px;
+}
+
+.transUl li {
+	padding: 0px 32px 10px;
+}
+
+.investBox .transNav a {
+	width: 105px;
+	padding: 0;
+	text-align: center;
+}
+.investStaBox{overflow: auto;}
+.investStaBox .transNav {
+	float: left;
+}
+
+.investStaBox .dateTime {
+	float: right;
+	color: #999;
+	padding-right: 20px;
+}
+
+.dateTime .qishi {
+	height: 27px;
+	line-height: 27px;
+	border: 1px solid #e9e9e9;
+	margin-left: 10px;
+	cursor: pointer;
+	padding-left: 10px;
+}
+
+.dateTime span {
+	margin-left: 10px;
+	display: inline-block;
+	width: 10px;
+	height: 6px;
+	*height: 9px;
+}
+
+.dateTime .current2 {
+	border-color: #fc8130;
+}
+
+.dateTime input {
+	outline: none;
+}
+
+/*回款日历*/
+.investCon .calendar{
+	margin-top: 40px;
+	background-color: #f4f4f7;
+	padding: 6px 0 6px 10px;	
+}
+.calendar a{
+	display: block;
+	width: 94px;
+	height: 18px;
+	text-align: center;
+}
+.calendar a i{
+	display: inline-block;
+	width: 26px;
+	height: 18px;
+	background: url(../images/icons/icon_dateArrow.png) no-repeat;
+}
+.calendar a.preBtn i{
+	background-position: 0 0;
+}
+.calendar a.nextBtn i{
+	background-position: 0 -18px;
+}
+.calendar a:hover{
+	background-color: #fc6401;
+}
+.calendar a.preBtn:hover i{
+	background-position: -26px 0;
+}
+.calendar a.nextBtn:hover i{
+	background-position: -26px -18px;
+}
+.calendar .calBox{
+	height: 24px;
+	font-size: 12px;
+}
+.calBox .calYear{
+	float: left;
+	width: 94px;
+	height: 24px;
+	line-height: 24px;
+	background-color: #fff;
+	text-align: center;
+	color: #333;
+}
+.calBox .caList{
+	height: 24px;
+	float: left;
+	margin-left: 5px;
+	color: #666;
+}
+.calBox .caList li{
+	float: left;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	background-color: #fff;
+	margin-right: 3.5px;
+	position: relative;
+}
+.caList li.today{
+	background-color: #fc6401;
+	color: #fff;
+}
+.caList li.next{
+	color: #aaa;
+}
+ .caList li i{
+ 	width: 7px;
+ 	height: 7px;
+ 	background: url(../images/radiu.png) no-repeat;
+ 	position: absolute;
+ 	left: 8.5px;
+ 	top: -12px;
+ }
+.investTab .fontCol{color: #fc8130;}
+.investStaBox .outstaTime{float: left;}
+.outstandBox .investBox .transTba{padding-top: 0px;}
+

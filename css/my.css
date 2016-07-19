@@ -1,0 +1,230 @@
+
+
+
+.content_wu .sort i {
+	background: url(../images/arrow.png) no-repeat 0 -13px;
+}
+
+.content table td {
+	height: 102px;
+	color: #5e5e5e;
+	text-align: center;
+	border-bottom: 1px solid #e9e9e9;
+	font-size: 16px;
+}
+
+.content_wu table td.noMagin {
+	text-align: left;
+}
+
+.content table td:first-child {
+	text-align: left;
+	padding-left: 2%;
+}
+
+
+
+
+.content .percent {
+	color: #fdb180;
+	font-size: 18px;
+	margin-top: -35px;
+	margin-left: 10px;
+}
+
+.content .percent span.percentBg {
+	display: inline-block;
+	width: 122px;
+	border: 1px solid #ffe8d9;
+	height: 4px;
+	border-radius: 2px;
+	border-radius: 2px;
+	vertical-align: middle;
+	position: relative;
+}
+
+.percent span.percentBg i {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: -2px;
+	height: 8px;
+	background-color: #fdb180;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.percentBg em {
+	position: absolute;
+	top: -12px;
+	right: -49px;
+}
+
+.content .yfont {
+	color: #fc8130;
+}
+
+.content_wu .pfont {
+	color: #fc6401;
+	font-size: 24px;
+}
+
+.content .bgfont {
+	display: inline-block;
+	width: 110px;
+	height: 38px;
+	border-radius: 5px;
+	background: #f4f4f7;
+	margin-left: 20px;
+	line-height: 38px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.content_wu .lft,
+.content_wu .icon {
+	float: left;
+}
+
+
+.content_wu .lft{
+	overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+display: inline-block;
+width: 158px;
+}
+
+.content_wu .icon i {
+	display: inline-block;
+	float: left;
+}
+
+.content_wu .pro {
+	display: inline-block;
+	width: 62px;
+	height: 24px;
+	background: url(../images/icon_bid.png) no-repeat 0 -100px;
+}
+
+.content_wu .shi1,
+.content_wu .xin1,
+.content_wu .you1,
+.content_wu .bao1,
+.content_wu .di1 {
+	width: 20px;
+	height: 20px;
+	background: url(../images/icon_bid.png) no-repeat;
+	background-position: 0 0;
+	margin: 0 2px;
+}
+
+.content_wu .xin1 {
+	background-position: 0 -20px;
+}
+
+.content_wu .you1 {
+	background-position: 0 -40px;
+}
+
+.content_wu .bao1 {
+	background-position: 0 -60px;
+}
+
+.content_wu .di1 {
+	background-position: 0 -80px;
+}
+
+.page {
+	padding: 70px 0 148px 0;
+	text-align: center;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.page a {
+	display: inline-block;
+	margin: 0 10px;
+	background: #f4f4f7;
+	border-radius: 3px;
+	overflow: hidden;
+	padding: 13px 15px;
+}
+.page a.noBg{background: none;}
+.page a.current {
+	background: none;
+}
+
+.page .pPage {
+	width: 76px;
+}
+.noCursor{cursor: default;}
+.noCursor:hover{color: #666;}
+/*2015.11.16 jyj begin*/
+
+/*无忧理财*/
+.list_wu{ width:1200px; margin:0 auto; padding-top:25px; padding-bottom:10px;}
+.list_wu dl { padding-top:13px; padding-left:24px;}
+.list_wu dl dt,.list_wu dl dd{ float:left;color:#484848; font-size:14px; height:27px; line-height:27px;}
+.list_wu dl dd a{ color:#484848;}
+.list_wu dl dt{ font-weight:bold; }
+.list_wu dl dd{ padding:0 15px; cursor:pointer;}
+.list_wu dl dd.active{ background:#fc8130; color:#fff;}
+.list_wu dl dd.active a{ color:#fff;}
+
+.content_wu{width:1200px; margin:28px auto 0; color:#666;}
+.content_wu th{color:#666; font-size:18px; font-weight:normal; height:46px; background:#f4f4f7; position:relative;}
+.content_wu th span {width:1px; height:16px; background:url(../images/line.png) no-repeat; position:absolute; left:0; top:15px;}
+.content_wu th a,.content_wu td{ padding-left:24px;}
+.content_wu th i{height:13px;width:9px;background:url(../images/arrow.png) no-repeat 0 0;position:absolute;top:17px; left:0px;}
+.content_wu th i.two{ left:81px;}
+.content_wu th i.three{ left:63px;}
+.content_wu th i.five{ left:140px;}
+.content_wu th .sort i {background: url(../images/arrow.png) no-repeat 0 -13px;}
+.content_wu table td {height:102px; color: #5e5e5e; border-bottom:1px solid #e9e9e9; font-size:16px;}
+.content_wu table td.last{ padding-left:0;}
+.content_wu table td.last a{display:inline-block; width:110px; height:38px; border-radius:5px; background:#fff; line-height:38px; text-align:center;}
+.content_wu table td.last .bgfont {background: #f4f4f7;}
+.content_wu .yfont {color: #fc8130;}
+.content_wu table td.last .yfont{color: #fc8130;}
+.content_wu table td.last .yfont:hover{ background: #fc8130; color: #fff;}
+.content_wu .percent span.percentBg { top:2px; height:4px;display:block;width: 122px;border: 1px solid #ffe8d9;position: relative; border-radius:3px}
+.content_wu .pfont {color: #fc6401;font-size: 24px;}
+
+/*转让专区*/
+.zhuan_left{float:left; width:874px; overflow:hidden;}
+.zhuan_left tr a{ color:#5e5e5e;}
+.zhuan_left th a, .zhuan_left td{ padding-left:12px;}
+.zhuan_left th a:hover{ color:#fc8130;}
+.zhuan_left th a.noCursor:hover{ color:#5e5e5e; cursor:default;}
+.zhuan_left th a.six{ margin-left:-10px;}
+.zhuan_left .first{ padding-left:20px;}
+.zhuan_left th i.two{ left:68px;}
+.zhuan_left th i.three{ left:85px;}
+.zhuan_left th i.five{ left:85px;}
+.record{ width:289px; height:396px; float:right; background:#fff5ef;}
+.record h3{ padding-left:20px; height:46px; line-height:46px; color:#313131; font-size:16px; display:block;}
+.record .record_line{ width:244px; height:315px; padding:12px; background:#fff; margin:0 auto;}
+.record .record_line li { padding:10px 0; *padding:7px 0;}
+.record .record_line li p{ color:#000; line-height:24px;}
+.record .record_line li p.phone{ float:left;}
+.record .record_line li p.phone span{ display:block; color:#9b9b9b;}
+.record .record_line li p.number{ float:right;}
+.record .list { height:44px; line-height:38px; color:#aeaeae;}
+.record .list .left{ float:left;}
+.record .list .right{ float:right;}
+.record .record_move{ height:270px; overflow:hidden;}
+
+
+/*2015.11.16 jyj end*/
+
+
+
+
+
+
+
+
+
+

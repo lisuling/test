@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="format-detection" content="telephone=yes" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+		<script src="../js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="../js/css3-mediaqueries.js" ></script>
+
+<title>民信登陆</title>
+		
+	</head>
+
+	<body>
+		<div class="box">
+			<div class="conBox">
+				<h1 class="boxLogo">
+            <a href="http://www.minxindai.com/" title="民信贷首页" target="_top">
+                <img src="../images/minxin.png"  alt="民信贷">
+            </a>
+        </h1>
+				<div class="login">
+					<div class="loginForm">
+						<form action="" method="post">
+							<h2>登录民信贷</h2>
+							<div class="formItem">
+								<label>用户名</label>
+								<input type="text" value="" placeholder="请输入手机号/邮箱/昵称" />
+							</div>
+							<div class="formItem">
+								<label>密&nbsp;&nbsp;码</label>
+								<input type="password" value="" placeholder="请输入密码" />
+							</div>
+							<P class="forgetPwd"><a href="#">忘记密码？</a></P>
+							<div class="sub">
+								<input type="submit" value="登录" class="loginButton" />
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="foot">
+				中富民信金融信息服务（上海）有限公司 2012-2015 版权所有 保留所有权利 泸ICP备15001759号-1
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var H = $(window).height();
+				$(".box").css({
+					"height": H
+				});
+				var random_bg = Math.floor(Math.random() * 3 + 1);
+				var bg = 'url(../images/bg_' + random_bg + '.jpg)';
+				$(".box").css("background-image", bg);
+			});
+		</script>
+	<!--<script type="text/javascript">
+			window.onload = function() {
+				alert(document.body.clientWidth); 
+			}
+		</script>-->
+	</body>
+
+</html>

@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+em {
+	font-style: normal;
+}
+
+ul li {
+	list-style: none;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #666666;
+	border: 0;
+}
+a:hover{
+	color: #fc8130;
+}
+.clear {
+ clear: both
+}
+
+.clearfix:after {
+ content: '\20';
+ display: block;
+ clear: both;
+ visibility: hidden;
+ line-height: 0;
+ height: 0;
+}
+
+.clearfix {
+ display: block;
+ zoom: 1;
+}
+
+fieldset,
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+table {
+	/*	border-collapse: collapse;
+*/
+	border-spacing: 0;
+	table-layout: fixed;
+}
+
+tr {
+	border: 0;
+}
+
+tbody {
+	display: table-row-group;
+	border: none;
+}
+
+td,
+th {
+	display: table-cell;
+}
+
+.bannerBg {
+	text-align: center;
+	width: 100%;
+	background: #ff6b09;
+}
+.bannerBg a{display:block; width: 1200px; margin: 0 auto;}
+/*导航开始*/
+.mynav {
+	width: 100%;
+	border-bottom: 1px solid #e9e9e9;
+	overflow: auto;
+	padding: 34px 0;
+}
+
+.mynav ul{
+	width: 1200px;
+	margin: 0 auto;
+}
+.mynav ul li {
+	float: left;
+	/*	padding: 54px 52px 45px;
+*/
+	font-size: 24px;
+	color: #333;
+}
+
+.mynav ul li a {
+	display: inline-block;
+	text-align: center;
+	width: 199px;
+	height: 52px;
+	line-height: 52px;
+}
+
+.mynav ul li .active {
+	color: #fc8130;
+	border: 1px solid #FC8130;
+}
+/*导航结束*/
+
+.footerBox a{ color:#9f9f9f;}
+

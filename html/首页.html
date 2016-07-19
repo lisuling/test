@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="民信贷_普惠金融,互联网金融,民信贷平台,民信贷网站,民信贷理财,民信贷官网">
+    <meta name="description" content="民信贷（www.minxindai.com）是借助大数据和云计算对客户拓展及信用审核方面的最新成果，将线下业务与互联网进行有机结合，创建的一个诚信、高效、安全、专业、透明的撮合服务平台。民信贷平台,民信贷网站,民信贷理财,民信贷官网，目前民信贷平台年化收益率达8-16%。民信贷自上线以来，赢得了广大用户的大力支持和信任。">
+    <title>民信贷唯一指定官网，权威理财平台，全民加薪为理念、普惠金融企业</title>
+    <link href="../css/base.css" rel="stylesheet" type="text/css">
+    <link href="../css/index.css" rel="stylesheet" type="text/css">
+    <link href="../images/icon_logo.ico" rel="icon" type="image/x-icon">
+    <script src="../js/jquery-1.8.3.js"></script>
+    <script src="../js/jquery.flexslider-min.js"></script>
+    <script src="../js/Marquee.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body style="background-color: #f5f5f8">
+<!--=======公共头部 begin =======-->
+<div class="headerBox">
+    <div class="topBg">
+        <div class="topCon">
+            <div class="topLeft"><a href="#">民信官网</a><span>|</span>客服电话<b>400－686-2877</b><span
+                    style="margin-right: 5px;">|</span><a href="#" class="app">手机民信贷</a></div>
+            <div class="topRight">
+                <!--未签到 begin-->
+                <a href="#" class="signBox" style="display: none"></a>
+                <!--end-->
+
+                <!--已签到 begin-->
+                <a href="#" class="signBox signed"></a>
+                <!--end-->
+
+                <!--未登录 begin-->
+                <em style="display: none"><a href="#">登录</a><span>|</span><a href="#">注册</a></em>
+                <!--end-->
+
+                <!--已登录 begin-->
+                <em>欢迎您，<a href="#">137****9729</a><span>|</span><a href="#">退出</a><span>|</span><a href="#">消息(99)</a></em>
+                <!--end-->
+
+                <span>|</span><a href="#">帮助中心</a>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="logo"><a class="page_mxd_logo" href="#">民信贷</a></div>
+        <div class="hdRight">
+            <div class="actBox">
+                <a class="newest" href="#"><i></i>最新活动</a>
+            </div>
+            <div class="accBox">
+                <a class="account" href="#"><i class="pre"></i>我的账户<i class="next"></i></a>
+                <div class="accMenu">
+                    <ul>
+                        <li><a href="#">账户总览</a></li>
+                        <li><a href="#">交易管理</a></li>
+                        <li><a href="#">资金管理</a></li>
+                        <li><a href="#">个人信息</a></li>
+                        <li><a href="#">消息中心</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navBg">
+        <ul class="nav">
+            <li class="active">
+                <a href="#">首页</a>
+                <span class="botLine"></span>
+            </li>
+            <li>
+                <a href="#" class="lc">我要理财</a>
+
+                <div class="lcMenu">
+                    <p><a href="#">新手专享</a></p>
+
+                    <p><a href="#">无忧理财</a></p>
+
+                    <p><a href="#">优质散标</a></p>
+
+                    <p><a href="#">债权转让</a></p>
+                </div>
+            </li>
+            <li><a href="#">民信金超</a></li>
+            <li><a href="#">我要借款</a></li>
+            <li><a href="#">积分乐园</a></li>
+        </ul>
+    </div>
+</div>
+<!--=======end =======-->
+
+<!--轮播图 begin-->
+<div class="flexslider">
+    <ul class="slides">
+        <li style="background: url(../images/banner_1.jpg) no-repeat center top;"><a href="#"></a></li>
+        <li style="background: url(../images/banner_2.jpg) no-repeat center top;"><a href="#"></a></li>
+    </ul>
+    <div class="bannerCon">
+        <!--未登录 begin-->
+        <a href="#" class="tyjBox" style="display: none">
+            <img src="../images/red_paper-.png">
+
+            <div class="tyjBtn">立即领体验金</div>
+        </a>
+        <!--end-->
+
+        <!--已登录 begin-->
+        <div class="tyjBox_2">
+            <div class="tyj_user">
+                <div class="headPic">
+                    <a href="#"><img src="../images/head_pic.jpg"></a>
+                    <!--<span>4</span>-->
+                </div>
+                <div class="user_info">
+                    <a href="#" class="uname">137****9729</a>
+
+                    <!--未签到 begin-->
+                    <p style="display: none">你好，别忘了<a href="javascript:void(0)">签到</a></p>
+                    <!--end-->
+
+                    <!--已签到 begin-->
+                    <p>你好，别忘了<a class="signed" href="javascript:void(0)">已签到</a></p>
+                    <!--end-->
+                </div>
+            </div>
+            <div class="user_money">
+                <p>账户余额：<span id="money"><b>¥</b>15,000,000</span></p>
+                <p>我的积分：<span id="score">1534</span></p>
+            </div>
+            <div class="userBtns"><a href="#" class="czBtn">充值</a><a href="#" class="txBtn">提现</a></div>
+            <div id="eOpen" class="eye e_1"></div>
+            <div id="eClose" class="eye e_2" style="display: none"></div>
+        </div>
+        <!--end-->
+    </div>
+</div>
+<!--end-->
+
+<div class="noticeBg">
+    <div class="noticeCon">
+        <div class="notLeft">
+            <h4><i></i>最新公告<span>|</span></h4>
+            <!--<i></i>最新公告<span>|</span><a href="#">关于民信贷官网升级活动的详细规则</a>-->
+            <div class="noticeBox" id="s1">
+                <ul>
+                    <li><a href="#">关于民信贷官网升级活动的详细规则</a></li>
+                    <li><a href="#">互联网金融供应链金融项目分析</a></li>
+                    <li><a href="#">年轻人投资理财首选P2P网贷</a></li>
+                    <li><a href="#">民信贷教你如何避开投资理财陷阱</a></li>
+                    <li><a href="#">民信贷教你投资理财 别让你的财越理越少</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="noticeMore">
+            <a href="#" class="more">更多<i></i></a>
+        </div>
+    </div>
+</div>
+<div class="aboutBg">
+    <ul class="aboutCon">
+        <li>
+            <i class="about_1"></i>
+
+            <div class="aboutText">
+                <h3>100%安全保障</h3>
+
+                <p>坚持小额分散原则</p>
+
+                <p>100%本息保障</p>
+            </div>
+        </li>
+        <li>
+            <i class="about_2"></i>
+
+            <div class="aboutText">
+                <h3>高投资收益</h3>
+
+                <p>多种投资方式 40倍银行活期</p>
+
+                <p>最高15%预期年化收益</p>
+            </div>
+        </li>
+        <li>
+            <i class="about_3"></i>
+
+            <div class="aboutText">
+                <h3>民信贷实力</h3>
+
+                <p>中融民信旗下公司及独立品牌</p>
+
+                <p>注册资金5000万</p>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="mainBox">
+<div class="hdList">
+    <a href="#" class="hd_1" title="点击进入新手活动页">
+        <h3>新手专区</h3>
+
+        <p>预期年化利率<strong>15%</strong></p>
+
+        <p>加百万体验金</p>
+        <i></i>
+    </a>
+    <a href="#" class="hd_2" title="点击进入累计排名活动页">
+        <h3>累计排名</h3>
+
+        <p>奖励大放送</p>
+
+        <p>百万现金送不停</p>
+        <i></i>
+    </a>
+    <a href="#" class="hd_3 last" title="点击进入收益提前享列表页">
+        <h3>收益提前享</h3>
+
+        <p>商品先拿</p>
+
+        <p>收益照收</p>
+        <i></i>
+    </a>
+</div>
+<div class="bidBox">
+<div class="bidCon">
+<div class="xsbBox">
+    <div class="bidTit">
+        <div class="bidLeft"><b>新手标</b><span class="line">|</span><span
+                class="bidTip">新用户专享<em>超高收益短期理财</em><i>50元起投</i></span></div>
+        <div class="bidMore">
+            <a href="#" class="more">更多<i></i></a>
+        </div>
+    </div>
+    <div class="bidList">
+        <ul>
+            <li>
+                <div class="xsbTit"><a href="#" title="个体扩大经营急需个体扩大经营急需">个体扩大经营急需个体扩大经营急需</a>
+                    <span><i class="xin"></i><i class="shi"></i><i class="bao"></i></span>
+                </div>
+                <div class="xsbInfo">
+                    <div class="xsbNum">
+                        <div class="rate">
+                            <p><strong><span>15</span>%</strong></p>
+
+                            <p>年化利率</p>
+                        </div>
+                        <div class="limit">
+                            <p><span>15天</span></p>
+
+                            <p>项目期限</p>
+                        </div>
+                    </div>
+                    <div class="surplus">
+                        <p class="left">剩余可投(元)</p>
+
+                        <p class="right"><span>1,000,000</span></p>
+                    </div>
+                </div>
+                <div class="percentBox">
+                    <span class="perBg"><i style="width: 80%"></i></span>80％
+                </div>
+                <div class="xsBtn"><a href="#" class="bidBtn">立即抢投</a></div>
+            </li>
+            <li>
+                <div class="xsbTit"><a href="#" title="">代理饮料进货</a>
+                    <span><i class="xin"></i><i class="shi"></i><i class="bao"></i></span>
+                </div>
+                <div class="xsbInfo">
+                    <div class="xsbNum">
+                        <div class="rate">
+                            <p><strong><span>15</span>%</strong></p>
+
+                            <p>年化利率</p>
+                        </div>
+                        <div class="limit">
+                            <p><span>15天</span></p>
+
+                            <p>项目期限</p>
+                        </div>
+                    </div>
+                    <div class="surplus">
+                        <p class="left">剩余可投(元)</p>
+
+                        <p class="right"><span>1,000,000</span></p>
+                    </div>
+                </div>
+                <div class="percentBox">
+                    <span class="perBg"><i style="width: 50%"></i></span>50％
+                </div>
+                <div class="xsBtn"><a href="#" class="bidBtn">立即抢投</a></div>
+            </li>
+            <li class="last">
+                <div class="xsbTit"><a href="#" title="">买房子需资金周转</a>
+                    <span><i class="xin"></i><i class="shi"></i><i class="bao"></i></span>
+                </div>
+                <div class="xsbInfo">
+                    <div class="xsbNum">
+                        <div class="rate">
+                            <p><strong><span>15</span>%</strong></p>
+
+                            <p>年化利率</p>
+                        </div>
+                        <div class="limit">
+                            <p><span>15天</span></p>
+
+                            <p>项目期限</p>
+                        </div>
+                    </div>
+                    <div class="surplus">
+                        <p class="left">剩余可投(元)</p>
+
+                        <p class="right"><span>1,000,000</span></p>
+                    </div>
+                </div>
+                <div class="percentBox">
+                    <span class="perBg"><i style="width: 30%"></i></span>30％
+                </div>
+                <div class="xsBtn"><a href="#" class="bidBtn">立即抢投</a></div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="hyjBox mt_30">
+    <div class="bidTit">
+        <div class="bidLeft"><b>活元佳</b><span class="line">|</span><span
+                class="bidTip">民信贷APP端专享<em>抢购倒计时</em><strong><span id="hour">06</span>:<span
+                id="minute">59</span></strong><i>50元起投</i></span></div>
+        <div class="bidMore">
+            <a href="#" class="more">更多<i></i></a>
+        </div>
+    </div>
+    <div class="hyjCon">
+        <ul>
+            <li class="first">
+                <h5><strong><span>7-11</span>%</strong></h5>
+
+                <p>年化利率</p>
+            </li>
+            <li>
+                <h5>按日计息</h5>
+
+                <p>收益方式</p>
+            </li>
+            <li class="last">
+                <h5>随存随取</h5>
+
+                <p>产品特点</p>
+            </li>
+        </ul>
+        <div class="hyjBtn"><a href="#" class="bidBtn">立即查看</a></div>
+    </div>
+</div>
+<div class="xsbBox mt_30">
+    <div class="bidTit">
+        <div class="bidLeft"><b>无忧理财</b><span class="line">|</span><span class="bidTip">高效便捷的理财模式<em>自动分散化的投资</em><i>1000元起投</i></span>
+        </div>
+        <div class="bidMore">
+            <a href="#" class="more">更多<i></i></a>
+        </div>
+    </div>
+    <div class="bidList">
+        <ul>
+            <li>
+                <div class="xsbTit"><a href="#" class="bigF">无忧理财1月计划</a></div>
+                <div class="xsbInfo">
+                    <div class="xsbNum">
+                        <div class="rate">
+                            <p><strong><span>8</span>%</strong></p>
+
+                            <p>年化利率</p>
+                        </div>
+                        <div class="limit">
+                            <p><span>1个月</span></p>
+
+                            <p>项目期限</p>
+                        </div>
+                    </div>
+                    <div class="surplus">
+                        <p class="left">剩余可投(元)</p>
+
+                        <p class="right"><span>1,000,000</span></p>
+                    </div>
+                </div>
+                <div class="percentBox">
+                    <span class="perBg"><i style="width: 50%"></i></span>50％
+                </div>
+                <div class="xsBtn"><a href="#" class="bidBtn">立即加入</a></div>
+            </li>
+            <li>
+                <div class="xsbTit"><a href="#" class="bigF">无忧理财3月计划</a></div>
+                <div class="xsbInfo">
+                    <div class="xsbNum">
+                        <div class="rate">
+                            <p><strong><span>9</span>%</strong></p>
+
+                            <p>年化利率</p>
+                        </div>
+                        <div class="limit">
+                            <p><span>3个月</span></p>
+
+                            <p>项目期限</p>
+                        </div>
+                    </div>
+                    <div class="surplus">
+                        <p class="left">剩余可投(元)</p>
+
+                        <p class="right"><span>1,000,000</span></p>
+                    </div>
+                </div>
+                <div class="percentBox">
+                    <span class="perBg"><i style="width: 50%"></i></span>50％
+                </div>
+                <div class="xsBtn"><a href="#" class="bidBtn">立即加入</a></div>
+            </li>
+            <li class="last">
+                <div class="xsbTit"><a href="#" class="bigF">无忧理财6月计划</a></div>
+                <div class="xsbInfo">
+                    <div class="xsbNum">
+                        <div class="rate">
+                            <p><strong><span>11</span>%</strong></p>
+
+                            <p>年化利率</p>
+                        </div>
+                        <div class="limit">
+                            <p><span>6个月</span></p>
+
+                            <p>项目期限</p>
+                        </div>
+                    </div>
+                    <div class="surplus">
+                        <p class="left">剩余可投(元)</p>
+
+                        <p class="right"><span>1,000,000</span></p>
+                    </div>
+                </div>
+                <div class="percentBox">
+                    <span class="perBg"><i style="width: 50%"></i></span>50％
+                </div>
+                <div class="xsBtn"><a href="#" class="bidBtn">立即加入</a></div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="xsbBox mt_30">
+    <div class="bidTit">
+        <div class="bidLeft"><b>优选标</b><span class="line">|</span><span class="bidTip">高效便捷的理财模式<em>自动分散化的投资</em><i>50元起投</i></span>
+        </div>
+        <div class="bidMore">
+            <a href="#" class="more">更多<i></i></a>
+        </div>
+    </div>
+    <div class="bidList">
+        <ul>
+            <li>
+                <div class="xsbTit"><a href="#">粮满仓20151008期</a>
+                    <span><i class="eight"></i></span>
+                </div>
+                <div class="xsbInfo">
+                    <div class="xsbNum">
+                        <div class="rate">
+                            <p><strong><span>8</span>%</strong></p>
+
+                            <p>年化利率</p>
+                        </div>
+                        <div class="limit">
+                            <p><span>3个月</span></p>
+
+                            <p>项目期限</p>
+                        </div>
+                    </div>
+                    <div class="surplus">
+                        <p class="left">剩余可投(元)</p>
+
+                        <p class="right"><span>1,000,000</span></p>
+                    </div>
+                </div>
+                <div class="percentBox">
+                    <span class="perBg"><i style="width: 80%"></i></span>80％
+                </div>
+                <div class="xsBtn"><a href="#" class="bidBtn">立即抢投</a></div>
+            </li>
+            <li>
+                <div class="xsbTit"><a href="#">代理饮料进货</a>
+                    <span><i class="you"></i><i class="shi"></i><i class="bao"></i></span>
+                </div>
+                <div class="xsbInfo">
+                    <div class="xsbNum">
+                        <div class="rate">
+                            <p><strong><span>9</span>%</strong></p>
+
+                            <p>年化利率</p>
+                        </div>
+                        <div class="limit">
+                            <p><span>3个月</span></p>
+
+                            <p>项目期限</p>
+                        </div>
+                    </div>
+                    <div class="surplus">
+                        <p class="left">剩余可投(元)</p>
+
+                        <p class="right"><span>1,000,000</span></p>
+                    </div>
+                </div>
+                <div class="percentBox">
+                    <span class="perBg"><i style="width: 50%"></i></span>50％
+                </div>
+                <div class="xsBtn"><a href="#" class="bidBtn">立即抢投</a></div>
+            </li>
+            <li class="last">
+                <div class="xsbTit"><a href="#">买房子需资金周转</a>
+                    <span><i class="you"></i><i class="shi"></i><i class="bao"></i></span>
+                </div>
+                <div class="xsbInfo">
+                    <div class="xsbNum">
+                        <div class="rate">
+                            <p><strong><span>11</span>%</strong></p>
+
+                            <p>年化利率</p>
+                        </div>
+                        <div class="limit">
+                            <p><span>3个月</span></p>
+
+                            <p>项目期限</p>
+                        </div>
+                    </div>
+                    <div class="surplus">
+                        <p class="left">剩余可投(元)</p>
+
+                        <p class="right"><span>1,000,000</span></p>
+                    </div>
+                </div>
+                <div class="percentBox">
+                    <span class="perBg"><i style="width: 30%"></i></span>30％
+                </div>
+                <div class="xsBtn"><a href="#" class="bidBtn">立即抢投</a></div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="jflyBox mt_30">
+    <div class="bidTit jfly_tit">
+        <div class="bidLeft"><b>积分乐园</b><span class="line">|</span><span class="bidTip">高效便捷的理财模式，自动分散化的投资<i>1000元起投</i></span>
+        </div>
+        <div class="bidMore">
+            <a href="#" class="more">更多<i></i></a>
+        </div>
+    </div>
+    <div class="jflyCon">
+        <ul>
+            <li>
+                <h4><a href="#">话费充值</a></h4>
+
+                <div class="jfPic"><img src="../images/jf_pic1.jpg"></div>
+                <div class="hf_choice">
+                    <a href="javascript:void(0)">50元</a>
+                    <a href="javascript:void(0)">100元</a>
+                </div>
+                <div class="hf">支持全国移动、联通电信手机话费充值20积分等于1元钱</div>
+                <div class="hfBtn"><a href="#" class="bidBtn">立即加入</a></div>
+            </li>
+            <li>
+                <h4><a href="#">流量充值</a></h4>
+
+                <div class="jfPic"><img src="../images/jf_pic2.jpg"></div>
+                <div class="hf_choice flow">
+                    <a href="javascript:void(0)">1G</a>
+                    <a href="javascript:void(0)">700M</a>
+                    <a href="javascript:void(0)">500M</a>
+                    <a href="javascript:void(0)">30M</a>
+                    <a href="javascript:void(0)">10M</a>
+                    <a href="javascript:void(0)">2M</a>
+                </div>
+                <div class="flowBtn"><a href="#" class="bidBtn">立即加入</a></div>
+            </li>
+            <li class="last">
+                <h4><a href="#">限时抢兑</a></h4>
+
+                <div class="jfPic"><img src="../images/jf_pic3.jpg"></div>
+                <div class="limit">
+                    <h5>中秋印象</h5>
+
+                    <p>积分价格：<span>20</span>积分</p>
+
+                    <p>秒杀时间：<span>2015-09-22 10:00:00</span></p>
+                </div>
+                <div class="limitBtn"><a href="#" class="bidBtn">立即加入</a></div>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+<div class="aside">
+    <div class="realTime">
+        <h3>实时投资</h3>
+
+        <div class="realCon">
+            <ul>
+                <li>5分钟前<span class="name">李**</span>投资<span class="money">3000</span>元</li>
+                <li>7分钟前<span class="name">李**</span>投资<span class="money">3,044,977</span>元</li>
+                <li>12分钟前<span class="name">李**</span>投资<span class="money">3,044,977</span>元</li>
+                <li>12分钟前<span class="name">李**</span>投资<span class="money">3,044,977</span>元</li>
+                <li>29分钟前<span class="name">李**</span>投资<span class="money">3,044,977</span>元</li>
+                <li>29分钟前<span class="name">李**</span>投资<span class="money">3,044,977</span>元</li>
+                <li>29分钟前<span class="name">李**</span>投资<span class="money">3,044,977</span>元</li>
+                <li>29分钟前<span class="name">李**</span>投资<span class="money">3,044,977</span>元</li>
+            </ul>
+        </div>
+    </div>
+    <div class="mediaBox mt_30">
+        <div class="mediaTit">
+            <h3>媒体报道</h3>
+
+            <div class="mediaMore"><a href="#" class="more">更多<i></i></a></div>
+        </div>
+        <div class="mediaCon">
+            <ul>
+                <li>
+                    <div class="mediaPic"><a href="#"><img src="../images/media_pic1.jpg"></a></div>
+                    <p><a href="#" title="央视解读《互金指导意见》 民信贷成范例再亮相">央视解读《互金指导意见》 民信贷成范例再亮相</a></p>
+                </li>
+                <li>
+                    <div class="mediaPic"><a href="#"><img src="../images/media_pic2.jpg"></a></div>
+                    <p><a href="#" title="">民信贷唐武：监管频发文 P2P竞争聚焦服务与安全</a></p>
+                </li>
+                <li>
+                    <div class="mediaPic"><a href="#"><img src="../images/media_pic3.jpg"></a></div>
+                    <p><a href="#" title="">互联网金融跨越前进 征信基础保驾护航</a></p>
+                </li>
+                <li class="last">
+                    <div class="mediaPic"><a href="#"><img src="../images/media_pic4.jpg"></a></div>
+                    <p><a href="#" title="">互联网金融跨越前进 征信基础保驾护航</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="mediaBox mt_30">
+        <div class="mediaTit">
+            <h3>民信新闻</h3>
+
+            <div class="mediaMore"><a href="#" class="more">更多<i></i></a></div>
+        </div>
+        <div class="mediaCon asideNews">
+            <ul>
+                <li>
+                    <p><a href="#" title="民信总裁冷厉：互联网金融走俏 未来将成投资首选方式？">民信总裁冷厉：互联网金融走俏 未来将成投资首选方式？</a></p>
+                </li>
+                <li>
+                    <p><a href="#" title="响应总理号召 民信贷助力首届中国MBA/EMBA创业大赛">响应总理号召 民信贷助力首届中国MBA/EMBA创业大赛</a></p>
+                </li>
+                <li>
+                    <p><a href="#" title="P2P网贷平台投资理财小白到底该投什么标？">P2P网贷平台投资理财小白到底该投什么标？</a></p>
+                </li>
+                <li>
+                    <p><a href="#" title="移动P2P网贷投资理财的四大需求与六大优化建议">移动P2P网贷投资理财的四大需求与六大优化建议</a></p>
+                </li>
+                <li>
+                    <p><a href="#">民信贷9月第二期累计排名大放送活动奖励公告</a></p>
+                </li>
+                <li class="last">
+                    <p><a href="#">民信贷教你P2P网贷新业务模式怎么玩儿？</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="codeBox mt_30">
+        <h4>民信贷APP</h4>
+        <img src="../images/mxd_code.jpg">
+        <p>扫一扫 下载客户端</p>
+    </div>
+</div>
+</div>
+<div class="hzhb mt_30">
+    <div class="hzTit">合作伙伴</div>
+    <div class="hzLogo"><img src="../images/hz_logos.jpg"></div>
+</div>
+<div class="mxzt mt_30">
+    <h5>民信专题</h5>
+    <ul class="ztList">
+        <li><a href="#">学生贷款标</a></li>
+        <li><a href="#">买房贷款标</a></li>
+        <li><a href="#">学生贷款标</a></li>
+        <li><a href="#">买房贷款标</a></li>
+        <li><a href="#">学生贷款标</a></li>
+        <li><a href="#">买房贷款标</a></li>
+        <li><a href="#">学生贷款标</a></li>
+        <li><a href="#">买房贷款标</a></li>
+        <li><a href="#">学生贷款标</a></li>
+        <li><a href="#">买房贷款标</a></li>
+        <li><a href="#">学生贷款标</a></li>
+        <li><a href="#">买房贷款标</a></li>
+    </ul>
+</div>
+</div>
+
+<!--=======公共底部 begin =======-->
+<div class="footerBox">
+    <div class="footerCon">
+        <div class="footerNav">
+            <div class="aboutUs">
+                <h5>公司介绍</h5>
+
+                <p><a href="#">联系我们</a></p>
+
+                <p><a href="#">全民理财</a></p>
+
+                <p><a href="#">安全保障</a></p>
+
+                <p><a href="#">帮助中心</a></p>
+
+                <p><a href="#">网站地图</a></p>
+            </div>
+            <div class="links">
+                <h5>友情链接</h5>
+                <ul class="linkList">
+                    <li>
+                        <p><a href="#" target="_blank">宝付</a></p>
+
+                        <p><a href="#" target="_blank">汇付宝</a></p>
+
+                        <p><a href="#" target="_blank">国政通</a></p>
+
+                        <p><a href="#" target="_blank">网贷指南</a></p>
+
+                        <p><a href="#" target="_blank">米袋网</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#" target="_blank">网贷之家</a></p>
+
+                        <p><a href="#" target="_blank">家财网</a></p>
+
+                        <p><a href="#" target="_blank">网贷123</a></p>
+
+                        <p><a href="#" target="_blank">网贷天眼</a></p>
+
+                        <p><a href="#" target="_blank">贷商网</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#" target="_blank">网贷百科</a></p>
+
+                        <p><a href="#" target="_blank">网贷前沿</a></p>
+
+                        <p><a href="#" target="_blank">网贷联盟</a></p>
+
+                        <p><a href="#" target="_blank">数信网</a></p>
+
+                        <p><a href="#" target="_blank">网贷中国</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#" target="_blank">网贷百科</a></p>
+
+                        <p><a href="#" target="_blank">网贷前沿</a></p>
+
+                        <p><a href="#" target="_blank">网贷联盟</a></p>
+
+                        <p><a href="#" target="_blank">数信网</a></p>
+
+                        <p><a href="#" target="_blank">网贷中国</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="kfBox">
+                <h5>客服热线</h5>
+
+                <div class="phone">
+                    <h6>400-686-2877</h6>
+
+                    <p>工作日 9:00-18:00</p>
+                </div>
+                <div class="wbBox">
+                    <a href="#" class="wb" target="_blank">
+                        <i></i>
+                        <p>官方微博</p>
+                    </a>
+                    <a id="code" href="javascript:void(0)" class="wx">
+                        <i></i>
+                        <p>官方微信</p>
+                    </a>
+                    <a href="#" class="kf">
+                        <i></i>
+                        <p>在线客服</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footerUI">
+            <p>中富民信金融信息服务（上海）有限公司&nbsp;&nbsp;2012-2015&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp;保留所有权利&nbsp;&nbsp;沪ICP备15001759号-1</p>
+
+            <div style="width:370px;margin:10px auto 0 auto; overflow: hidden">
+                <div id="symantecSeal" style="float:left; margin-right: 20px;"
+                     title="单击即可验证 - 该站点选择 Symantec SSL 实现安全的电子商务和机密通信">
+                    <script type="text/javascript"
+                            src="https://seal.verisign.com/getseal?host_name=www.minxindai.com&amp;size=S&amp;use_flash=YES&amp;use_transparent=YES&amp;lang=zh_cn"></script>
+                </div>
+                <a style="display: block; float: left; margin-right: 20px; padding-top: 13px" id='___szfw_logo___'
+                   href='https://search.szfw.org/cert/l/CX20130930003050003108' target='_blank'><img
+                        src='http://static.minxindai.com/images/bg/foot2.gif'></a>
+                <script type='text/javascript'>(function () {
+                    document.getElementById('___szfw_logo___').oncontextmenu = function () {
+                        return false;
+                    }
+                })();</script>
+                <a style="display: block; float: left; padding-top: 13px"
+                   href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1055649237" target="_blank"><img
+                        src="http://static.minxindai.com/images/bg/foot3.gif"/></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--=======end =======-->
+
+<!--右侧悬浮 begin-->
+    <div class="sideBar sideBar_1">
+        <a href="javascript: void(0)" class="count"></a>
+        <a href="javascript: void(0)" class="code">
+            <div class="codeSide"><img src="../images/code_side.png"></div>
+        </a>
+        <a href="javascript: void(0)" class="custom"></a>
+        <a href="#" class="charge"></a>
+        <a href="#" class="feedback"></a>
+        <a href="javascript:void(0)" id="goTopBtn" class="top" style="display: none"></a>
+    </div>
+<!--end-->
+
+<!--二维码弹出框 begin-->
+    <div id="mask" class="maskLayer"></div>
+    <div class="codeLayer">
+        <img src="../images/code_layer.jpg">
+        <i id="close"></i>
+    </div>
+<!--end-->
+
+<script type="text/javascript">
+    $(window).load(function () {
+        //轮播图
+        $('.flexslider').flexslider({
+            directionNav: true,
+            pauseOnAction: false,
+            pauseOnHover: true
+        });
+
+        //实时投资滚动
+        $('.realCon').kxbdSuperMarquee({
+            isMarquee:true,
+            isEqual:false,
+            scrollDelay:60,
+            direction:'up'
+        });
+    });
+
+    //最新公告滚动
+    setInterval('AutoScroll("#s1")',3000);
+    function AutoScroll(obj) {
+        $(obj).find("ul:first").animate({
+            marginTop: "-48px"
+        }, 500, function () {
+            $(this).css({marginTop: "0px"}).find("li:first").appendTo(this);
+        });
+    }
+
+    fixedSidebar();
+    function fixedSidebar(){
+        var side = $('.aside');
+        var sideTop = side.offset().top + side.height();
+        var h = $('.bidCon').height() - side.height();
+        var timer = 300;
+        var fixStatus = function () {
+            var winHeight = $(window).height();
+            var scrollTop = $(document).scrollTop();
+            var tempBottom = scrollTop + winHeight - sideTop;
+            if (tempBottom > h) {
+                tempBottom = h
+            }
+            if (scrollTop + winHeight > sideTop) {
+                side.css({position: 'absolute', right: '0'}).stop(true).animate({top: tempBottom}, timer)
+            } else {
+                side.css({position: 'static', right: '0'}).stop(true).animate({top: 0}, timer)
+            }
+        };
+        fixStatus();
+        $(window).scroll(function () {
+            fixStatus();
+        });
+        $(window).resize(function () {
+            fixStatus();
+        });
+    }
+</script>
+</body>
+</html>

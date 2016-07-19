@@ -1,0 +1,362 @@
+/*========公共个人信息（我的账户） begin=======*/
+.accountBg{
+    background-color: #374065;
+}
+.accountBg .accountTop{
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #c3cdf5;
+    padding: 0 5px;
+    *padding-bottom: 35px;
+}
+.accountTop .atopLeft{
+    float: left;
+    overflow: hidden;
+    margin: 35px 0;
+}
+.atopLeft .headBox{
+    width: 77px;
+    height: 77px;
+    float: left;
+    position: relative;
+}
+.headBox .headPic{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.headBox .headBg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 77px;
+    height: 77px;
+    background: url(../images/account/headBg.png) no-repeat;
+}
+.atopLeft .infoBox{
+    float: left;
+    margin-left: 25px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.infoBox .accountDet strong{
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 30px;
+}
+.infoBox .accountDet a{
+    color: #c3cdf5;
+}
+.infoBox .accountDet a:hover{
+    text-decoration: underline;
+}
+.infoBox .accountDet em{
+    margin-left: 8px;
+}
+.infoBox .accountDet span{
+    font-family: "宋体";
+    color: #4e5677;
+    margin: 0 12px 0 15px;
+}
+.infoBox .accountDet i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/icons/icon_ident.png) no-repeat;
+    vertical-align: -3px;
+    margin-right: 8px;
+}
+.infoBox .accountDet i.mobile{
+    background-position: 0 0;
+}
+.infoBox .accountDet i.real{
+    background-position: 0 -18px;
+}
+.infoBox .accountDet i.mail{
+    background-position: 0 -36px;
+}
+.infoBox .accountDet i.mo_pass{
+    background-position: 0 -54px;
+}
+.infoBox .accountDet i.r_pass{
+    background-position: 0 -72px;
+}
+.infoBox .accountDet i.ma_pass{
+    background-position: 0 -90px;
+}
+.infoBox p{
+    font-size: 12px;
+    margin-top: 12px;
+}
+.accountTop .atopRight{
+    float: right;
+    font-size: 14px;
+    padding-top: 48px;
+}
+.atopRight ul.myScore{
+    float: left;
+}
+.atopRight ul.myScore li{
+    float: left;
+    margin-left: 25px;
+    position: relative;
+}
+.atopRight i{
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    margin-right: 5px;
+    background: url(../images/icons/icon_hb.png) no-repeat;
+    vertical-align: middle;
+}
+ul.myScore li i.hb{
+    background-position: 0 0;
+}
+ul.myScore li i.jxq{
+    background-position: 0 -18px;
+}
+ul.myScore li i.jf{
+    background-position: 0 -36px;
+}
+ul.myScore li span{
+    margin-left: 4px;
+}
+ul.myScore li span.mid{
+    margin-right: 4px;
+}
+ul.myScore li .tipBox{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+ul.myScore li .fadeIn{
+    top: 26px;
+    opacity: 1;
+    visibility: visible;
+}
+ul.myScore li .aL{
+    left: 0;
+}
+ul.myScore li .tipBox span{
+    display: block;
+    width: 7px;
+    height: 5px;
+    background: url(../images/account/arrow_up.png) no-repeat;
+    margin: 0 auto;
+}
+ul.myScore li .tipBox .tipCon{
+    background-color: #fff;
+    height: 32px;
+    line-height: 32px;
+    color: #fc6401;
+    font-size: 14px;
+    width: 126px;
+    border-radius: 4px;
+}
+.atopRight .jfdh{
+    float: left;
+    margin-left: 15px;
+}
+.atopRight .jfdh a{
+    display: block;
+    color: #d0d8f5;
+}
+.atopRight .jfdh a:hover{
+    text-decoration: underline;
+}
+.atopRight .jfdh i.dh{
+    background-position: 0 -54px;
+    margin: 0 0 0 5px;
+}
+.assetBg{
+    background-color: #f4f4f7;
+}
+.assetBg .assetBox{
+    width: 1200px;
+    margin: 0 auto;
+    color: #666;
+    text-align: center;
+    height: 100px;
+}
+.assetBox .mxdAsset{
+    width: 416px;
+    float: left;
+    background-color: #fff;
+    padding: 18px 0 20px 0;
+    border-top: 2px solid #fc8130;
+    color: #fc6401;
+    position: relative;
+}
+.assetBox h3{
+    font-size: 24px;
+}
+.assetBox p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+i.what{
+    width: 17px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    background: url(../images/icons/icon_what.png) no-repeat;
+    cursor: pointer;
+}
+.assetBox i.what{
+    top: 26px;
+    right: 120px;
+}
+.assetBox .symbol{
+    float: left;
+    width: 90px;
+    font-size: 36px;
+    color: #b9b9b9;
+    line-height: 98px;
+}
+.assetBox .equal{
+    width: 200px;
+}
+.assetBox .mxjcAsset{
+    width: 270px;
+    float: left;
+    padding-top: 20px;
+}
+.assetBox .mxjcAsset a{
+    display: block;
+    color: #666;
+}
+.assetBox .mxjcAsset a:hover{
+    color: #fc6401;
+}
+.assetBox .totalAsset{
+    float: left;
+    padding: 20px 0 0 15px;
+}
+.mxdAsset .whatLayer{
+    position: absolute;
+    left: 261px;
+    top: 50px;
+    z-index: 10;
+}
+.whatLayer .wArrow{
+    width: 12px;
+    height: 10px;
+    background: url(../images/account/what_arrow.png) no-repeat;
+    margin-left: 20px;
+    z-index: 1;
+    position: relative;
+}
+.mxdAsset .whatLayer .wArrow{
+    *margin-left: -260px;
+}
+.whatLayer .whatCon{
+    border: 1px solid #b9b9b9;
+    border-radius: 3px;
+    margin-top: -1px;
+    z-index: -1;
+    background-color: #fff;
+    color: #666;
+    font-size: 14px;
+}
+.mxdAsset .whatCon{
+    width: 282px;
+    padding: 11px 15px;
+    text-align: center;
+}
+/*========end=======*/
+
+
+/*========公共左侧菜单（我的账户） begin=======*/
+.accMain{
+    width: 1200px;
+    margin: 48px auto 0 auto;
+    overflow: hidden;
+}
+.accMain .accountMenu{
+    width: 158px;
+    float: left;
+    font-size: 14px;
+    border: 1px solid #e9e9e9;
+    border-bottom: 0;
+    background-color: #fff;
+}
+.accMain .accountMenu p{
+    color: #000;
+    border-bottom: 1px solid #e9e9e9;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer;
+}
+.accountMenu .menuBox{
+    border-bottom: 1px solid #e9e9e9;
+    padding: 10px 0 14px 0;
+}
+.accountMenu .last{
+    border-bottom: 1px solid #e9e9e9;
+}
+.accountMenu .menuBox li.active a{
+    background-color: #f4f4f7;
+    color: #fc6401;
+}
+.accountMenu .menuBox li a{
+    display: block;
+    line-height: 40px;
+    color: #999;
+    padding-left: 52px;
+}
+.accountMenu .menuBox li a:hover{
+    color: #fc6401;
+}
+.menuBox li a span{
+    color: #fc8130;
+}
+/*========end=======*/
+
+
+/*========公共底部（我的账户） begin=======*/
+.footer_2{
+    background-color: #646464;
+    margin-top: 50px;
+}
+.footer_2 .ftCon{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ftCon .ftLeft{
+    float: left;
+    margin-top: 52px;
+}
+.ftCon .ftLeft ul{
+    overflow: hidden;
+    font-size: 16px;
+}
+.ftCon .ftLeft li{
+    float: left;
+    margin-left: 35px;
+}
+.ftCon .ftLeft li a{
+    color: #dadada;
+}
+.ftCon .ftLeft li a:hover{
+    color: #f2f2f2;
+}
+.ftCon .ftLeft p{
+    font-size: 12px;
+    font-family: verdana;
+    color: #aaa;
+    margin: 18px 0 0 35px;
+}
+.ftCon .ftRight{
+    float: right;
+    margin: 48px 20px 40px 0;
+}
+/*========end=======*/

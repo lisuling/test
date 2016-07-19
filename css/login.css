@@ -1,0 +1,235 @@
+html {
+	color: #000;
+	background: #fff;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	font-size: 62.5%;
+	font:"微软雅黑","Microsoft YaHei", Helvetica, Tahoma, Arial, sans-serif;
+}
+
+/* 初始化 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{margin:0; padding:0; border:none; font-family: "微软雅黑";}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+
+}
+html{-webkit-text-size-adjust:none;}
+
+/* 去除iPhone中默认的input样式  清除苹果浏览器的圆角表单*/
+input[type="submit"],
+
+input[type="reset"],
+
+input[type="button"],
+
+input{-webkit-appearance:none; resize: none;}
+
+/* 图片自适应 */
+img {
+max-width: 100%;
+height: auto;
+width:auto\9; /* ie8 */
+-ms-interpolation-mode:bicubic;/*为了照顾ie图片缩放失真*/
+border: none;
+outline: none;
+}
+
+.box {
+	padding: 0;
+	background-color: #666666;
+	background-origin: padding-box;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-image: url();
+	overflow: hidden;
+}
+
+.conBox {
+	/*	position: relative;*/
+	width: 990px;
+	height: auto;
+	min-height: 450px;
+	min-width: 320px;
+	margin: 0 auto;
+
+}
+
+.boxLogo {
+	float: left;
+	width: 100%;
+	height: 51px;
+}
+
+.login {
+	float: right;
+	margin: 27px 95px;
+	width: 300px;
+	height: auto;
+	background: #000;
+	/*filter: alpha(opacity=65);
+	-moz-opacity: 0.65;
+	-khtml-opacity: 0.65;
+	opacity: 0.65;*/
+	background: url(../images/loginbg.png) no-repeat;
+	padding-top: 43px;
+	border-radius: 5px;
+}
+
+.loginForm {
+	width: 264px;
+	margin: 0 auto;
+}
+
+.login h2 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: normal;
+}
+
+.login input {
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 66px;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #333;
+}
+
+.loginForm .formItem {
+	margin-top: 20px;
+	position: relative;
+}
+
+.loginForm .formItem label {
+	position: absolute;
+	left: 14px;
+	top: 9px;
+	color: #555;
+	font-size: 16px;
+}
+
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #aeaeae;
+	font-size: 16px;
+}
+
+::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #aeaeae;
+	font-size: 16px;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	color: #aeaeae;
+	font-size: 16px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: #aeaeae;
+	font-size: 16px;
+}
+
+.forgetPwd {
+	padding: 4px 0 26px 0;
+	text-align: right;
+}
+
+.forgetPwd a:link,
+a:visited {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+.loginForm .sub {
+	padding-bottom: 66px;
+}
+
+.loginForm .sub .loginButton {
+	width: 264px;
+	font-size: 18px;
+	line-height: 49px;
+	background: #fc7720;
+	border: 0;
+	outline: 0;
+	color: #fff;
+	height: 49px;
+	text-align: center;
+	border-radius: 4px;
+	padding-left: 0;
+}
+
+.foot {
+	width: 96%;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	margin: 15px auto;
+}
+
+@media only screen and (min-width:990px) {
+	.conBox {
+		padding: 50px 0;
+	}
+	.login{
+		margin: 27px 95px;
+	}
+}
+
+@media only screen and (min-width:639px) and (max-width:990px) {
+	.conBox {
+		width: 90%;
+		margin: 50px auto 0;
+	}
+	
+	.foot{margin-top: 55px;}
+	
+}
+
+@media only screen and (min-width:319px) and (max-width:640px) {
+	.conBox {
+		width: 90%;
+		min-height: 320px;
+		margin-top: 25px;
+	}
+	.boxLogo {
+		width: 146px;
+		margin: 5px auto;
+		float: none;
+		padding-top: 10px;
+	}
+	.login {
+		margin: 10px auto 0;
+		float: none;
+	}
+	.login h2 {
+		font-size: 16px;
+	}
+	.login input {
+		height: 36px;
+		font-size: 14px;
+	}
+	.loginForm .formItem label {
+		top: 10px;
+		font-size: 14px;
+	}
+	.loginForm .sub .loginButton{
+		font-size: 14px;
+	}
+	.foot{
+		margin-top: 10px;
+	}
+}

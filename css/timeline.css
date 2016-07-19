@@ -1,0 +1,255 @@
+#wrap {
+	margin: 30px auto 0px auto;
+	width: 968px;
+	height: 71px;
+	background: #f4f4f7;
+}
+
+.timeline {
+	padding: 0px;
+	margin: 0px;
+	/*    overflow: hidden;
+*/
+	color: #FFF;
+	font-family: "Lucida Grande", Lucida Sans Unicode, Tahoma, Arial;
+	font-size: 8pt;
+	position: relative;
+}
+
+.timeline_arrows {
+	overflow: hidden;
+	margin-left: 15px;
+	padding-bottom: 30px;
+	*padding-bottom: 24px;
+	zoom: 1;
+	width: 100px;
+	padding-top: 24px;
+	position: relative;
+}
+
+.timeline_arrows div {
+	float: left;
+}
+
+.timeline_date {
+	height: 20px;
+	color: #333;
+	background-color: #fff;
+	line-height: 18px;
+	width: 94px;
+	height: 18px;
+	text-align: center;
+}
+
+.timeline_lastyear,
+.timeline_lastmonth,
+.timeline_nextyear {
+	cursor: pointer;
+	width: 94px;
+	height: 18px;
+	background: url(../images/top.jpg);
+}
+
+.timeline_lastyear {
+	cursor: pointer;
+	width: 94px;
+	height: 18px;
+	background: url(../images/top.jpg);
+}
+
+.timeline_nextmonth {
+	cursor: pointer;
+	width: 94px;
+	height: 18px;
+	background: url(../images/bot.jpg);
+	position: absolute;
+	left: 0px;
+	bottom: 12px;
+	*bottom: 6px;
+}
+
+.timeline_lastyear:hover {
+	background-position: 0px -20px;
+}
+
+.timeline_lastmonth {
+	position: absolute;
+	top: 6px;
+	left: 0px;
+}
+
+.timeline_lastmonth:hover {
+	background: url(../images/hovertop.jpg) no-repeat;
+}
+
+.timeline_nextmonth:hover {
+	background: url(../images/hoverbot.jpg) no-repeat;
+}
+
+.timeline_nextyear {
+	background-position: -30px 0px;
+	border-left: 1px solid #000;
+}
+
+.timeline_nextyear:hover {
+	background-position: -30px -20px;
+}
+
+.timeline_top {
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	top: 8px;
+	left: 130px;
+	width: 968px;
+}
+
+.timeline_bottom {
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 130px;
+	width: 968px;
+}
+
+.timeline_top ul,
+.timeline_bottom ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.timeline_top li,
+.timeline_bottom li {
+	float: left;
+	margin-right: 2px;
+	padding: 3px 2px 0px 2px;
+}
+
+.timeline_bottom li {
+	border: none;
+}
+
+.timeline_bottom li {
+	padding: 0px 2px 3px 2px !important;
+}
+
+.timeline_top li div,
+.timeline_bottom li div {
+	text-transform: uppercase;
+	text-align: center;
+	width: 20px;
+}
+
+.timeline_top li {
+	text-align: center;
+	width: 20px;
+}
+
+
+/*.timeline_top li div{
+	background: url(../images/radiu.png) no-repeat;
+	width: 7px;
+	height: 7px;
+	margin:0 6px;
+}*/
+
+.timeline_top li div.radioCurrent {
+	background: url(../images/radiu.png) no-repeat;
+	width: 7px;
+	height: 7px;
+	margin: 0 6px;
+}
+
+.timeline_top div {
+	/*    background: url(../images/normal.gif) no-repeat left top;
+*/
+	padding: 3px 0px 5px 0px !important;
+}
+
+.timeline_bottom div {
+	/*   background: url(../images/normal.gif) no-repeat left bottom;*/
+	padding: 5px 0px 3px 0px !important;
+	background: #fff;
+	color: #333;
+}
+
+
+/*.timeline_top .today {
+    background: url(../images/today.gif) no-repeat left top;
+    padding: 3px 0px 5px 0px !important;
+} 
+*/
+
+.timeline_bottom .today {
+	background: #fc6401;
+	padding: 5px 0px 3px 0px !important;
+	color: #fff;
+}
+
+.timeline_top .event,
+.timeline_bottom .event {
+	color: #C1E20D;
+	cursor: pointer;
+}
+
+.timeline_bubble {
+	display: none;
+	overflow: hidden;
+	width: 142px;
+	position: absolute;
+	font-family: "Lucida Grande", Lucida Sans Unicode, Tahoma, Arial;
+	font-size: 8pt;
+}
+
+.timeline_bubble .bubble_top,
+.timeline_bubble .bubble_bottom,
+.timeline_bubble .bubble_mid {
+	background: url(../images/bubble.png) repeat-y;
+	overflow: hidden;
+}
+
+.bubbleIE6 {
+	background-image: url(../images/bubble.gif) !important;
+}
+
+.timeline_bubble .bubble_top {
+	height: 10px;
+	background-position: -142px 0px;
+}
+
+.timeline_bubble .bubble_bottom {
+	height: 10px;
+	background-position: -142px -38px;
+}
+
+.timeline_bubble .bubble_mid {
+	background-position: -284px -1px;
+	overflow: hidden;
+}
+
+.timeline_bubble .event_title {
+	cursor: pointer;
+	color: #FFF;
+	padding: 3px 0px 3px 0px;
+	margin: 0px 5px 0px 5px;
+	border-bottom: 1px solid #999;
+	font-weight: bold;
+}
+
+.timeline_bubble .event_title:hover {
+	color: #C1E20D;
+}
+
+.timeline_bubble .event_title:hover + next {
+	display: block;
+}
+
+.timeline_bubble .event_data {
+	overflow: hidden;
+	display: none;
+	color: #fff;
+	font-weight: normal;
+	margin: 3px 0px 0px 0px;
+}

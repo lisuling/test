@@ -1,0 +1,56 @@
+
+
+.content{width: 1200px; margin: 0 auto;  border-bottom: 1px solid #ccc; }
+.conBox{
+
+	padding-top: 34px;
+
+
+}
+.conBox h4{text-align: center; color: #333; font-weight: normal; font-size: 22px;}
+.conBox strong,.conBox i,.mfont{color: #fc6401; font-size: 20px; font-style: normal;}
+.conBox i{font-weight: bolder;}
+.conBox ul{width: 861px; margin:  0 auto; overflow: auto;}
+.conBox ul li{float: left;/* margin: 60px;*/ margin: 60px 0; text-align: center; line-height: 30px; position: relative; padding-left: 70px; padding-right: 67px;}
+.conBox .mfont{font-weight: bold; font-size: 30px;}
+.conBox .conBox i{font-size: 20px;}
+.conBox span{color: #999; font-size: 16px;}
+.conBox em{width: 1px; height: 51px; background: url(../images/long_line.png) no-repeat; display: inline-block; position: absolute; right: 0; top: 0;}
+.conBox .sfont{font-weight: normal; color: #FC6401;}
+/*.timeBox{width: 1200px; height: 125px;}*/
+.timeApp{width: 1200px; margin: 0 auto;}
+.timeBox{width: 298px; height: 126px;*padding-top: 75px; margin: 0 auto;}
+.timeltf,.timergt{line-height: 30px;}
+.timeBox span,.timeltf #time,.timeltf .time{float: left; color: #5e5e5e; font-size: 16px;}
+.timeltf #time,.timeltf .time{margin-left: 11px; font-size: 26px; color:#333;}
+.timergt{float: right;}
+.timergt .ffont{color: #333; font-size: 26px; padding-left: 5px;}
+.appBox{width: 571px; height: 152px; margin:0 0 0 420px;}
+.appBox .btn{float: left;width: 340px;}
+.appBox .erweima{float: left; position: relative; margin-top: 20px; margin-left: 56px;}
+.mimg{position: absolute; left: 133px; top: -9px;}
+.mimg:hover{cursor: pointer;}
+.mimgHover{position: absolute; top:-7px; left: -12px;}
+.erweima span{color: #666666;}
+.konwBox{width: 1176px; margin: 0 auto; padding-top: 48px; padding-left: 24px; padding-bottom: 20px;}
+ h3{color: #333; font-weight: bold;}
+.konw{margin-top: 42px;} 
+.sknow{margin-top: 36px;}
+.konwBox .konw p{font-size: 14px; color: #5e5e5e; line-height: 28px;position: relative; padding-left: 24px;}
+.konw span{ 
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 6px;
+	}
+.konw .blackQ{background: url(../images/qa.png) no-repeat 0 0;}
+.konw .pinkA{background: url(../images/qa.png) no-repeat 0 -17px;}
+/*底部footer*/
+.footerList {
+	width: 100%;
+	background: #646464;
+	height: 160px;
+}

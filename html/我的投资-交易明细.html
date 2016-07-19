@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>我的投资-交易明细</title>
+		<link href="../css/base.css" rel="stylesheet" type="text/css">
+		<link href="../css/acc_base.css" rel="stylesheet" type="text/css">
+		<link href="../css/account.css" rel="stylesheet" type="text/css">
+		<link href="../images/icon_logo.ico" rel="icon" type="image/x-icon">
+		<script src="../js/jquery-1.8.3.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../js/touzi.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="../js/My97DatePicker/WdatePicker.js"></script>
+	</head>
+
+	<body>
+		<!--=======公共头部 begin =======-->
+		<div class="headerBox">
+			<div class="topBg">
+				<div class="topCon">
+					<div class="topLeft"><a href="#">民信官网</a><span>|</span>客服电话<b>400－686-2877</b><span style="margin-right: 5px;">|</span><a href="#" class="app">手机民信贷</a></div>
+					<div class="topRight">
+						<!--未签到 begin-->
+						<a href="#" class="signBox" style="display: none"></a>
+						<!--end-->
+
+						<!--已签到 begin-->
+						<a href="#" class="signBox signed"></a>
+						<!--end-->
+
+						<!--未登录 begin-->
+						<em style="display: none"><a href="#">登录</a><span>|</span><a href="#">注册</a></em>
+						<!--end-->
+
+						<!--已登录 begin-->
+						<em>欢迎您，<a href="#">137****9729</a><span>|</span><a href="#">退出</a><span>|</span><a href="#">消息(99)</a></em>
+						<!--end-->
+
+						<span>|</span><a href="#">帮助中心</a>
+					</div>
+				</div>
+			</div>
+			<div class="header">
+				<div class="logo"><a class="page_mxd_logo" href="#">民信贷</a></div>
+				<div class="hdRight">
+					<div class="actBox">
+						<a class="newest" href="#"><i></i>最新活动</a>
+					</div>
+					<div class="accBox">
+						<a class="account" href="#"><i class="pre"></i>我的账户<i class="next"></i></a>
+						<div class="accMenu">
+							<ul>
+								<li><a href="#">账户总览</a></li>
+								<li><a href="#">交易管理</a></li>
+								<li><a href="#">资金管理</a></li>
+								<li><a href="#">个人信息</a></li>
+								<li><a href="#">消息中心</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navBg">
+				<ul class="nav">
+					<li>
+						<a href="#">首页</a>
+						<span class="botLine"></span>
+					</li>
+					<li>
+						<a href="#" class="lc">我要理财</a>
+
+						<div class="lcMenu">
+							<p><a href="#">新手专享</a></p>
+
+							<p><a href="#">无忧理财</a></p>
+
+							<p><a href="#">优质散标</a></p>
+
+							<p><a href="#">债权转让</a></p>
+						</div>
+					</li>
+					<li><a href="#">民信金超</a></li>
+					<li><a href="#">我要借款</a></li>
+					<li><a href="#">积分乐园</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--=======end =======-->
+
+		<!--=======公共个人信息（我的账户） begin =======-->
+		<div class="accountBg">
+			<div class="accountTop">
+				<div class="atopLeft">
+					<div class="headBox">
+						<div class="headPic"><img src="../images/account/headPic.jpg"></div>
+						<div class="headBg"></div>
+					</div>
+					<div class="infoBox">
+						<div class="accountDet"><strong><a href="#">13552086067</a></strong>安全等级<em>中</em><span>|</span><i class="mobile mo_pass" title="手机认证"></i><i class="real" title="实名认证"></i><i class="mail" title="邮箱认证"></i></div>
+						<p>上次登录时间：2015-10-20 11:55:25</p>
+					</div>
+				</div>
+				<div class="atopRight">
+					<ul class="myScore">
+						<li>
+							<i class="hb"></i>红包<span>200.00</span>
+							<div class="tipBox">
+								<span></span>
+								<div class="tipCon">3个即将过期</div>
+							</div>
+						</li>
+						<li>
+							<i class="jxq"></i>加息券<span class="mid">2</span>张
+							<div class="tipBox aL">
+								<span></span>
+								<div class="tipCon">3个即将过期</div>
+							</div>
+						</li>
+						<li><i class="jf"></i>积分<span>251</span></li>
+					</ul>
+					<div class="jfdh">
+						<a href="#">积分兑换<i class="dh"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="assetBg">
+			<div class="assetBox">
+				<div class="mxdAsset">
+					<h3>民信贷资产</h3>
+					<p>20,000.00</p>
+					<i class="what"></i>
+					<div class="whatLayer" style="display: none">
+						<div class="wArrow"></div>
+						<div class="whatCon">可用余额 + 冻结金额 + 待收收益 + 代收本金</div>
+					</div>
+				</div>
+				<div class="symbol">+</div>
+				<div class="mxjcAsset">
+					<a href="#">
+						<h3>民信金超资产</h3>
+						<p>0.00</p>
+					</a>
+				</div>
+				<div class="symbol equal">=</div>
+				<div class="totalAsset">
+					<h3>总资产</h3>
+					<p>20,000.00</p>
+				</div>
+			</div>
+		</div>
+		<!--=======end =======-->
+
+		<div class="accMain">
+			<div class="accountMenu">
+				<p>交易管理</p>
+				<ul class="menuBox">
+					<li class="active"><a href="#">我的投资</a></li>
+					<li><a href="#">转让管理</a></li>
+					<li><a href="#">自动投标</a></li>
+					<li><a href="#">回款日历</a></li>
+					<li><a href="#">我的借款</a></li>
+				</ul>
+				<p>借款管理</p>
+				<ul class="menuBox" style="display: none">
+					<li><a href="#">我的借款</a></li>
+				</ul>
+				<p>资金管理</p>
+				<ul class="menuBox" style="display: none">
+					<li><a href="#">充值</a></li>
+					<li><a href="#">提现</a></li>
+					<li><a href="#">交易明细</a></li>
+				</ul>
+				<p>奖励管理</p>
+				<ul class="menuBox" style="display: none">
+					<li><a href="#">我的红包</a></li>
+					<li><a href="#">我的积分</a></li>
+					<li><a href="#">我的邀请</a></li>
+				</ul>
+				<p>个人信息</p>
+				<ul class="menuBox" style="display: none">
+					<li><a href="#">个人基本信息</a></li>
+					<li><a href="#">认证信息</a></li>
+					<li><a href="#">银行卡信息</a></li>
+					<li><a href="#">密码管理</a></li>
+				</ul>
+				<p>消息中心</p>
+				<ul class="menuBox last" style="display: none">
+					<li><a href="#">站内消息<span>(6)</span></a></li>
+				</ul>
+			</div>
+			<div class="investCon">
+				<h3>交易明细</h3>
+		
+				
+				<div class="haveTop marTop">
+					<ul>
+						<li>已充值金额
+							<br/><span class="colFont">1000.00</span></li>
+						<li>冻结金额
+							<br/><span>1000.00</span></li>
+						<li class="noPadding">已提现金额
+							<br/><span>1000.00</span></li>
+					</ul>
+				</div>
+				<ul class="investType transUl">
+					<li class="active"><a href="javascript:;">全部</a></li>
+					<li><a href="javascript:;">充值</a></li>
+					<li><a href="javascript:;">提现</a></li>
+					<li><a href="javascript:;">回款</a></li>
+					<li><a href="javascript:;">投资</a></li>
+					<li><a href="javascript:;">奖励</a></li>
+				</ul>
+				<div class="investBox">
+					<div class="investStaBox">
+						<div class="investSta transNav">
+							<a class="active" href="javascript:;">今日</a>
+							<a href="javascript:;">最近一周</a>
+							<a href="javascript:;">1个月</a>
+							<a href="javascript:;">3个月</a>
+						</div>
+						<div class="dateTime">
+							起止日期
+							<input class="qishi" id="d4311" onFocus="WdatePicker({maxDate:'#F{$dp.$D(\'d4312\')||\'2020-10-01\'}'})" class="Wdate" />
+							<span><img src="../images/line2.jpg"/></span>
+							<input class="qishi" id="d4312" onFocus="WdatePicker({minDate:'#F{$dp.$D(\'d4311\')}',maxDate:'2020-10-01'})" class="Wdate" />
+						</div>
+					</div>
+					<div class="investTab transTba" style="clear: both;">
+						<table border="0" cellspacing="0" cellpadding="0">
+							<tr class="noHover">
+								<th width="200">交易时间</th>
+								<th width="100">交易类型</th>
+								<th width="230">交易详情</th>
+								<th width="180">交易金额</th>
+								<th width="170">总金额</th>
+								<th width="90">可用余额</th>
+
+							</tr>
+							<tr>
+								<td>2015-09-11 15:30:12</td>
+								<td>充值</td>
+								<td>易宝快捷支付</td>
+								<td>4020.00</td>
+								<td>30.00</td>
+								<td>4020.00</td>
+
+							</tr>
+							<tr>
+								<td>2015-09-11 15:30:12</td>
+								<td>提现</td>
+								<td>提现已汇出</td>
+								<td>4020.00</td>
+								<td>80.00</td>
+								<td>4020.00</td>
+
+							</tr>
+							<tr>
+								<td>2015-09-11 15:30:12</td>
+								<td>回款</td>
+								<td>收款</td>
+								<td>4020.00</td>
+								<td>1000.00</td>
+								<td>4020.00</td>
+
+							</tr>
+							<tr>
+								<td>2015-09-11 15:30:12</td>
+								<td>投资</td>
+								<td>易宝快捷支付</td>
+								<td>4020.00</td>
+								<td>865.00</td>
+								<td>4020.00</td>
+
+							</tr>
+							<tr>
+								<td>2015-09-11 15:30:12</td>
+								<td>奖励</td>
+								<td>提现已汇出</td>
+								<td>4020.00</td>
+								<td>145.00</td>
+								<td>4020.00</td>
+
+							</tr>
+							<tr>
+								<td>2015-09-11 15:30:12</td>
+								<td>充值</td>
+								<td>收款</td>
+								<td>4020.00</td>
+								<td>12,546.00</td>
+								<td>4020.00</td>
+
+							</tr>
+
+						</table>
+						<div class="page">
+							<a href="javascript:;" class="pPage">上一页</a>
+							<a href="javascript:;" class="current">1</a>
+							<a href="javascript:;">2</a>
+							<a href="javascript:;">3</a>
+							<a href="javascript:;">4</a>
+							<a href="javascript:;">5</a>
+							<a href="javascript:;" class="noBg">......</a>
+							<a href="javascript:;">10000</a>
+							<a href="javascript:;" class="pPage">下一页</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_2">
+			<div class="ftCon">
+				<div class="ftLeft">
+					<ul>
+						<li><a href="#">公司介绍</a></li>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">全民理财</a></li>
+						<li><a href="#">安全保障</a></li>
+						<li><a href="#">帮助中心</a></li>
+						<li><a href="#">网站地图</a></li>
+					</ul>
+					<p>中富民信金融信息服务（上海）有限公司 2012-2015 版权所有 保留所有权利 泸ICP备15001759号-1</p>
+				</div>
+				<div class="ftRight">
+					<div style="width:370px;margin:0 auto; overflow: hidden">
+						<div id="symantecSeal" style="float:left; margin-right: 20px;" title="单击即可验证 - 该站点选择 Symantec SSL 实现安全的电子商务和机密通信">
+							<script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=www.minxindai.com&amp;size=S&amp;use_flash=YES&amp;use_transparent=YES&amp;lang=zh_cn"></script>
+						</div>
+						<a style="display: block; float: left; margin-right: 20px; padding-top: 13px" id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20130930003050003108' target='_blank'><img src='http://static.minxindai.com/images/bg/foot2.gif'></a>
+						<script type='text/javascript'>
+							(function() {
+								document.getElementById('___szfw_logo___').oncontextmenu = function() {
+									return false;
+								}
+							})();
+						</script>
+						<a style="display: block; float: left; padding-top: 13px" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1055649237" target="_blank"><img src="http://static.minxindai.com/images/bg/foot3.gif" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--右侧悬浮 begin-->
+		<div class="sideBar sideBar_1">
+			<a href="javascript: void(0)" class="count"></a>
+			<a href="javascript: void(0)" class="code">
+				<div class="codeSide"><img src="../images/code_side.png"></div>
+			</a>
+			<a href="javascript: void(0)" class="custom"></a>
+			<a href="#" class="charge"></a>
+			<a href="#" class="feedback"></a>
+			<a href="javascript:void(0)" id="goTopBtn" class="top" style="display: none"></a>
+		</div>
+		<!--end-->
+
+		<script>
+			$(function() {
+				$('#close').click(function() {
+					$(this).parent().fadeOut('fast');
+				});
+			})
+		</script>
+	</body>
+
+</html>
